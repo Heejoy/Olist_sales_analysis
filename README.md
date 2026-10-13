@@ -1,6 +1,6 @@
 # Olist E-commerce Sales Analysis
 
-[Portfolio](https://www.heejeongdata.com/) | [Olist_Sales_Analysis](Olist_Sales_Analysis)
+[Portfolio](https://www.heejeongdata.com/) | [Olist_Sales_Analysis](Olist_Sales_Analysis.pdf)
 
 Clean Brazilian e-commerce data with **Python**, segment customers with **RFM**, build reporting views in **SQL Server**, and present the results in a **Power BI** dashboard.
 
@@ -16,7 +16,7 @@ Clean Brazilian e-commerce data with **Python**, segment customers with **RFM**,
 ## Key results
 
 - **R$15.4M** in sales from **93,357** customers and **96,477** delivered orders (average order value about R$160).
-- **"Potentially Loyal" customers are 60% of customers and bring 60% of sales.
+- **"Potentially Loyal"** customers are 60% of customers and bring 60% of sales.
 - **97% of customers bought only once.** Getting them to come back is the biggest chance to grow.
 - **Sao Paulo, Rio de Janeiro and Minas Gerais** generate 62.5% of sales.
 - **November 2017** was the best month (R$1.15M), about 1.5 times October.
@@ -63,4 +63,4 @@ pip install pandas openpyxl sqlalchemy pyodbc
 
 ## Contact
 
-Heejeong | [LinkedIn](https://www.linkedin.com/in/joyheejeong/?isSelfProfile=true) | [GitHub](https://github.com/Heejoy)
+Heejeong | [LinkedIn](https://www.linkedin.com/in/joyheejeong/) | [GitHub](https://github.com/Heejoy)
