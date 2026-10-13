@@ -1,5 +1,7 @@
 # Olist E-commerce Sales Analysis
 
+[Portfolio](https://www.heejeongdata.com/) | [Olist_Sales_Analysis](Olist_Sales_Analysis)
+
 Clean Brazilian e-commerce data with **Python**, segment customers with **RFM**, build reporting views in **SQL Server**, and present the results in a **Power BI** dashboard.
 
 ![Dashboard](power_bi/dashboard.png)
