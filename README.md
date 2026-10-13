@@ -14,7 +14,7 @@ Clean Brazilian e-commerce data with **Python**, segment customers with **RFM**,
 ## Key results
 
 - **R$15.4M** in sales from **93,357** customers and **96,477** delivered orders (average order value about R$160).
-- **"Potentially Loyal" customers are 60% of customers and bring 60% of sales.** They are the group to nurture.
+- **"Potentially Loyal" customers are 60% of customers and bring 60% of sales.
 - **97% of customers bought only once.** Getting them to come back is the biggest chance to grow.
 - **Sao Paulo, Rio de Janeiro and Minas Gerais** generate 62.5% of sales.
 - **November 2017** was the best month (R$1.15M), about 1.5 times October.
@@ -43,21 +43,6 @@ Clean Brazilian e-commerce data with **Python**, segment customers with **RFM**,
 The three scores are combined into a code (such as `455`) and mapped to a tier, checked in this order: **VIP** (455, 545, 554, 555), **Loyal** (R >= 4 and F >= 4), **New** (R = 5, F = 1), **Churned** (R = 1, F <= 2), **At-Risk** (R = 2, F = 2 or 3), otherwise **Potentially Loyal**.
 
 **SQL Server views.** `vw_rfm` holds the scores and tiers. `vw_sales_by_tier`, `vw_sales_monthly`, `vw_sales_by_category` and `vw_sales_by_state` each feed one chart in the dashboard.
-
-## Repository structure
-
-```
-├── Python/
-│   ├── data_cleaning.py     # 1. clean the raw data
-│   ├── rfm_analysis.py      # 2. score customers and assign tiers
-│   └── load_to_sql.py       # 3. load cleaned tables into SQL Server
-├── SQL/
-│   ├── rfm.sql              # view: vw_rfm
-│   └── view_charts.sql      # views for the dashboard
-├── Dashboard/               # Power BI file
-├── Data/                    # Raw / Cleaned_data / RFM (raw files not included)
-└── images/dashboard.png
-```
 
 ## How to run
 
